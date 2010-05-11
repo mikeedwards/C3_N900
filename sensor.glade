@@ -20,13 +20,11 @@
             <child>
               <object class="GtkHBox" id="hboxCamera">
                 <property name="visible">True</property>
-                <property name="orientation">vertical</property>
                 <child>
                   <object class="GtkDrawingArea" id="screen">
                     <property name="visible">True</property>
                   </object>
                   <packing>
-                    <property name="expand">False</property>
                     <property name="position">0</property>
                   </packing>
                 </child>
