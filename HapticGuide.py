@@ -211,7 +211,7 @@ class HapticGuideUI:
 
  def create_pipeline(self):
     self.labelDebugData.set_text("start pipeline")
-    src = gst.element_factory_make("v4l2src", "src") 
+    src = gst.element_factory_make("v4l2camsrc", "src") 
     src.set_property ("device", "/dev/video0")
     #check dev for video call if this doesn't work
     #src.set_property ("always-copy", True)
